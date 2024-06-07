@@ -1,0 +1,33 @@
+#page-container {
+    position: relative;
+    min-height: 94vh;
+}
+
+#content-wrap{
+    padding-bottom: 2.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+h2 {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+h3 {
+    background-color: #7500CF;
+    color: #FFFFFF;
+}
+
+ul {
+    background-color: #AE43FF;
+}
+
+ul li {
+    background-color: #DEB3FF;
+}
