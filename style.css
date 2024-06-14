@@ -36,3 +36,24 @@ ul {
 ul li {
     background-color: #DEB3FF;
 }
+
+nav a {
+    color: rgba(49, 18, 134, 1);
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: rgba(49, 18, 134, 0.5);
+}
+
+nav a:visited {
+    text-decoration: none;
+}
+
+nav a:active {
+    text-decoration: none;
+}
