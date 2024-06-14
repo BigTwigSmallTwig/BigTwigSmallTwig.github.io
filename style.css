@@ -1,3 +1,7 @@
+* {
+    font-family: Consolas, monaco, monospace;
+}
+
 #page-container {
     position: relative;
     min-height: 94vh;
