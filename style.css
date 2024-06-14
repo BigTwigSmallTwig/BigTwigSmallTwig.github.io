@@ -12,7 +12,7 @@
 }
 
 footer {
-    background-color: rgba(105, 105, 105, 0.5);
+    background-color: #3E3E3E;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -94,4 +94,30 @@ ul li {
 
 .subnav:hover .subnav-content {
     display: block;
+}
+
+.footer_container {
+    height: 90%;
+}
+.footer_container a {
+    display: inline-flex;
+    color: white;
+    padding: 10px 10px;
+}
+
+.footer_container a:link {
+    text-decoration: none;
+}
+
+.footer_container a:hover {
+    text-decoration: none;
+    background-color: #646464;
+}
+
+.footer_container a:active {
+    text-decoration: none;
+}
+
+.footer_container a:visited {
+    text-decoration: none;
 }
