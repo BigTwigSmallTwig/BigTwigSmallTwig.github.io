@@ -5,15 +5,6 @@
     margin: 0;
 }
 
-#page-container {
-    position: relative;
-    min-height: 94vh;
-}
-
-#content-wrap{
-    padding-bottom: 2.5rem;
-}
-
 h2 {
     background-color: #000000;
     color: #FFFFFF;
@@ -92,7 +83,14 @@ ul li {
 }
 
 .project_name {
-    margin: 30px 0px;
+    margin: 30px 0;
+}
+
+.features #feature_main {
+    margin: 20px 0;;
+}
+.features li {
+    margin-left: 40px;
 }
 
 .footer_container {
