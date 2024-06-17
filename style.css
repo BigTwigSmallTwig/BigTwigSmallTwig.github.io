@@ -82,11 +82,11 @@ ul li {
     display: block;
 }
 
-#project_name {
+.title {
     margin: 30px 0;
 }
 
-.features .feature_main {
+.features .text{
     margin: 20px 0;;
 }
 .features li {
@@ -98,13 +98,13 @@ ul li {
 }
 
 .footer_container {
-    height: 100%;
     position: absolute;
-    bottom: 0;
-    width: 100%;
     height: 2.5rem;
+    width: 100%;
+    bottom: 0;
     background-color: #3E3E3E;
 }
+
 .footer_container a {
     display: inline-flex;
     color: white;
@@ -129,11 +129,16 @@ ul li {
     text-decoration: none;
 }
 
-#project_name, #features_intro, .feature_main, .features li, #goal_title, #goals {
+.title, .text, .features li, .images img {
     padding-left: 10px;
 }
 
-#features_intro, .feature_main, .features li, #goal_title, #goals{
+.text, .features li {
     padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.images img {
+    padding-top: 20px;
     padding-bottom: 3px;
 }
