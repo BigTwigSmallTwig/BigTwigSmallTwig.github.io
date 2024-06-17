@@ -124,3 +124,17 @@ body {
     padding-top: 3px;
     padding-bottom: 3px;
 }
+
+.form {
+    background-color: grey;
+}
+
+.form-field {
+    display: block;
+    padding: 5px 5px 5px 5px;
+}
+
+.form-button {
+    margin: 5px 5px 5px 5px;
+    padding: 3px 5px 3px 5px;
+}
