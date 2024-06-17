@@ -143,6 +143,17 @@ body {
     display: block;
 }
 
-#img_person1 {
-    width: 400px;
+
+img {
+    padding-left: 10px;
+    padding-top: 10px;
+    height: auto;
+}
+
+#image_person1 {
+    max-width: 100%;
+}
+
+#image_person2 {
+    max-width: 70%;
 }
