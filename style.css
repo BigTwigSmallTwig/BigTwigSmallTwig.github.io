@@ -5,23 +5,10 @@
     margin: 0;
 }
 
-h2 {
-    background-color: #000000;
-    color: #FFFFFF;
+body {
+    background-color: #DDDDDD;
 }
 
-h3 {
-    background-color: #7500CF;
-    color: #FFFFFF;
-}
-
-ul {
-    background-color: #AE43FF;
-}
-
-ul li {
-    background-color: #DEB3FF;
-}
 
 .navbar {
     overflow: hidden;
@@ -98,7 +85,6 @@ ul li {
 }
 
 .footer_container {
-    height: 100%;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -110,6 +96,7 @@ ul li {
     color: white;
     padding: 10px;
     font-size: 18px;
+    height: 2.5rem;
 }
 
 .footer_container a:link {
