@@ -93,6 +93,10 @@ ul li {
     margin-left: 40px;
 }
 
+.goals_container {
+    margin-top: 35px;
+}
+
 .footer_container {
     height: 100%;
     position: absolute;
