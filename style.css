@@ -147,3 +147,17 @@ body {
     margin: 5px 5px 5px 5px;
     padding: 3px 5px 3px 5px;
 }
+
+img {
+    padding-left: 10px;
+    padding-top: 10px;
+    height: auto;
+}
+
+#image_person1 {
+    max-width: 100%;
+}
+
+#image_person2 {
+    max-width: 70%;
+}
