@@ -101,8 +101,8 @@ ul li {
     position: absolute;
     height: 2.5rem;
     width: 100%;
-    bottom: 0;
     background-color: #3E3E3E;
+    bottom: 0;
 }
 
 .footer_container a {
@@ -129,7 +129,7 @@ ul li {
     text-decoration: none;
 }
 
-.title, .text, .features li, .images img {
+.title, .text, .features li, .images img, .email {
     padding-left: 10px;
 }
 
@@ -138,7 +138,11 @@ ul li {
     padding-bottom: 3px;
 }
 
+.email {
+    margin-bottom: 20px;
+}
+
 .images img {
-    padding-top: 20px;
-    padding-bottom: 3px;
+    margin-top: 20px;
+    margin-bottom: 3px;
 }
