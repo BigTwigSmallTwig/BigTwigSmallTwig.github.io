@@ -1,22 +1,8 @@
 * {
+    box-sizing: border-box;
     font-family: Consolas, monaco, monospace;
-}
-
-#page-container {
-    position: relative;
-    min-height: 94vh;
-}
-
-#content-wrap{
-    padding-bottom: 2.5rem;
-}
-
-footer {
-    background-color: #3E3E3E;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
+    padding: 0;
+    margin: 0;
 }
 
 h2 {
@@ -45,7 +31,7 @@ ul li {
 
 .navbar a {
     float: left;
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -96,13 +82,34 @@ ul li {
     display: block;
 }
 
+#project_name {
+    margin: 30px 0;
+}
+
+.features .feature_main {
+    margin: 20px 0;;
+}
+.features li {
+    margin-left: 40px;
+}
+
+.goals_container {
+    margin-top: 35px;
+}
+
 .footer_container {
-    height: 90%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #3E3E3E;
 }
 .footer_container a {
     display: inline-flex;
     color: white;
-    padding: 10px 10px;
+    padding: 10px;
+    font-size: 18px;
 }
 
 .footer_container a:link {
@@ -120,4 +127,13 @@ ul li {
 
 .footer_container a:visited {
     text-decoration: none;
+}
+
+#project_name, #features_intro, .feature_main, .features li, #goal_title, #goals {
+    padding-left: 10px;
+}
+
+#features_intro, .feature_main, .features li, #goal_title, #goals{
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
