@@ -9,11 +9,17 @@ body {
     background-color: #DDDDDD;
 }
 
+header {
+    display: unset;
+}
 
 .navbar {
-    overflow: hidden;
+    display: flex;
     background-color: #3E3E3E;
     width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .navbar a {
